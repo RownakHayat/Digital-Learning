@@ -38,7 +38,7 @@ body{
  color: #1D1D1D;
 }
 .course-details{
-    width: 606px;
+    
     text-align: center;
     align-items: center;
     color: #777777;
@@ -84,13 +84,16 @@ body{
     display: flex;
     background-color: #289BDE;
     border-radius: 5px;
-
+    align-items: center;
+    
 }
 .join-bar{
-    padding: 12px;
+    align-items: center;
     color: #FFFFFF;
     width: 528px;
 }
 .reg-now{
-    justify-content: flex-end;
+   
+    text-align: center;
+    
 }
