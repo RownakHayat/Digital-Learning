@@ -25,7 +25,7 @@ body{
     justify-content: center;
     text-align: center;
 }
-.heading-titel{
+.heading-titel, .feedback-titel{
  
  color: #1D1D1D;
 }
@@ -51,7 +51,23 @@ body{
   display: inline-block;
   font-size: 16px;
 }
+.feedback-titel{
+    text-align: center;
+    color: #1D1D1D;
 
+}
+.card-header{
+    display: flex;
+    justify-content: space-between;
+}
+.card-header .fa-star{
+    color: darkgoldenrod;
+    
+}
+.student-id{
+    display: flex;
+    padding-left: 14px;
+}
 .more-course, .company-img{
     display: flex;
     justify-content: space-evenly;
