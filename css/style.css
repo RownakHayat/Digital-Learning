@@ -8,17 +8,14 @@ body{
 }
 .slider-cap {
     bottom: 0%;
-    top: 35%;
-   
-    
+    top: 35%; 
 }
-
 .carousel-item img{
 
     height:100vh;
     filter:b;
 }
-.headline-titel,{
+.headline-titel{
     color: #FFFFFF;
     text-align: center;
     font-size: 65;
@@ -107,15 +104,12 @@ body{
 
 }
 
-.socie-link {
-    justify-content: center;
+.socie-link, .fa-brand {
+    justify-content:center;
     display: flex;
+    color:#FFFFFF;
     
 }
-
-.footer-app{
-
-    width: 80px;
-    height: 30px;
-    margin-bottom: 10px;
+.fa-brand{
+    padding: 3px;
 }
