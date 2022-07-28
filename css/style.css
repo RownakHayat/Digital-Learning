@@ -18,18 +18,13 @@ body{
     height:100vh;
     filter:b;
 }
-.headline-titel{
+.headline-titel,{
     color: #FFFFFF;
     text-align: center;
     font-size: 65;
 }
-.heading-titel, 
-.courses{
-    justify-content: center;
-    align-items: center;
-   
-}
-.courses{
+.courses, .fqa{
+    padding: 50px;
     justify-content: center;
     text-align: center;
 }
@@ -38,7 +33,7 @@ body{
  color: #1D1D1D;
 }
 .course-details{
-    
+   
     text-align: center;
     align-items: center;
     color: #777777;
@@ -59,12 +54,8 @@ body{
   display: inline-block;
   font-size: 16px;
 }
-.reg-btn{
-    justify-content: end;
-}
 
-
-.more-course{
+.more-course, .company-img{
     display: flex;
     justify-content: space-evenly;
 }
@@ -96,4 +87,35 @@ body{
    
     text-align: center;
     
+}
+.student-text{
+    color: #777777;
+}
+.company-img img{
+    width: 80px;
+}
+.footer-section{
+    padding-top: 30px;
+}
+.footer {
+    padding: 20px;
+    background-color: #0B0D17;
+    color: white;
+    width: 100%;
+    padding: 50px 0px;
+    text-align: center;
+
+}
+
+.socie-link {
+    justify-content: center;
+    display: flex;
+    
+}
+
+.footer-app{
+
+    width: 80px;
+    height: 30px;
+    margin-bottom: 10px;
 }
