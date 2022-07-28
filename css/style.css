@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin-top: 20px;
+}
+.slider-cap {
+    bottom: 0%;
+    top: 35%;
+   
+    
+}
+
+.carousel-item img{
+
+    height:100vh;
+    filter:b;
+}
+.headline-titel{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 65;
+}
+.heading-titel, 
+.courses{
+    justify-content: center;
+    align-items: center;
+   
+}
+.courses{
+    justify-content: center;
+    text-align: center;
+}
+.heading-titel{
+ 
+ color: #1D1D1D;
+}
+.course-details{
+    width: 606px;
+    text-align: center;
+    align-items: center;
+    color: #777777;
+}
+.price{
+
+    color: #289BDE;
+}
+.btn{
+    justify-content: center;
+}
+.button{
+  background-color: #289BDE;
+  border-radius: 5px;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+.reg-btn{
+    justify-content: end;
+}
+
+
+.more-course{
+    display: flex;
+    justify-content: space-evenly;
+}
+.button-1 {
+
+    width: 175px;
+    height: 56px;
+    background-color: #289BDE;
+    padding: 8px 8px 8px 8px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.reggition-bar{
+    display: flex;
+    background-color: #289BDE;
+    border-radius: 5px;
+
+}
+.join-bar{
+    padding: 12px;
+    color: #FFFFFF;
+    width: 528px;
+}
+.reg-now{
+    justify-content: flex-end;
+}
