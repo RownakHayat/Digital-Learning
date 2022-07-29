@@ -141,6 +141,9 @@ body{
     .btn-all{
         display: none;
     }
+    .company-img img{
+        width: 30px;
+    }
 }
 @media  screen and (min-width:577px) and(max-width:992px) {
     .btn{
