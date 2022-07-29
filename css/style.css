@@ -42,7 +42,9 @@ body{
 .btn{
     justify-content: center;
 }
-
+.working-info{
+    width: 576px;
+}
 .button{
   background-color: #289BDE;
   border-radius: 5px;
@@ -129,4 +131,14 @@ body{
 }
 .fa-brand{
     padding: 3px;
+}
+
+
+@media  screen and (max-width:576px)  {
+    .sm-responsive{
+        width: 100%;
+    }
+}
+@media  screen and (min-width:577px) and(max-width:992px) {
+    
 }
