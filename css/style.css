@@ -39,7 +39,7 @@ body{
 
     color: #289BDE;
 }
-.btn{
+.btn-all{
     justify-content: center;
 }
 .explore{
@@ -92,16 +92,16 @@ body{
     background-color: #289BDE;
     border-radius: 5px;
     align-items: center;
+    padding: 10px;
     
 }
 .join-bar{
-    align-items: center;
     color: #FFFFFF;
-    width: 528px;
 }
 .reg-now{
-   
-    text-align: center;
+    
+    justify-content:center;
+    
     
 }
 .student-text{
@@ -138,7 +138,7 @@ body{
     .sm-responsive{
         width: 100%;
     }
-    .btn{
+    .btn-all{
         display: none;
     }
 }
