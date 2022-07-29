@@ -42,8 +42,8 @@ body{
 .btn{
     justify-content: center;
 }
-.working-info{
-    width: 576px;
+.explore{
+    background-color: rgb(233, 233, 233);
 }
 .button{
   background-color: #289BDE;
